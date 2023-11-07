@@ -51,7 +51,15 @@
 <span class="tag is-link">Reflection</span>
 <p>Looking back on market day, our stand made a decent amount of money for all the time and effort we put into our build. I enjoyed the process, and have learnt alot from our mistakes. It was a bit stressful at times, and alot of things didnt go our way, but in the end it all turned out okay, and wasn't a complete disaster.</p>
 
-<img src="Claw Up 3.jpg"
+
+<div class="photos">
+<figure>
+<img src="Claw Up 3.jpg">
+</figure>
+<figure>
+<img src="Claw Down.jpg">
+</figure>
+</div>
 
 
   <footer class="footer">
@@ -63,4 +71,22 @@
       </p>
     </div>
   </footer>
+
+ <style>
+.photos {
+
+  display:flex;
+  flex-direction:row;
+  gap: 1px
+}
+
+figure {
+  width:50%
+}
+
+/*fixes Bulma*/
+.content figure:not(first-child) {
+margin-top:0em !important;
+}
+ </style>
 
